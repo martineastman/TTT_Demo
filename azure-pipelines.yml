@@ -17,3 +17,12 @@ steps:
     echo Add other tasks to build, test, and deploy your project.
     echo See https://aka.ms/yaml
   displayName: 'Run a multi-line script'
+- task: BMCTTAutoRun@1
+  inputs:
+    HCIConnection: 'CW06:16196'
+    UserID: 'amimee0'
+    Password: 'syc4567'
+    TestLocationPath: 'C:\Users\meastman\Compuware\Workbench\workspace\CWXTCOB'
+    CLIInstallationPath: 'C:\WorkbenchCLI'
+    Configuration: 'LocalTTTConf'
+    LocalTTTConfiguration: 'C:\Users\meastman\Compuware\Workbench\workspace\CWXTCOB'
