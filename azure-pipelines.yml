@@ -25,4 +25,4 @@ steps:
     TestLocationPath: 'C:\Users\meastman\Compuware\Workbench\workspace\CWXTCOB\Tests\Scenarios'
     CLIInstallationPath: 'C:\WorkbenchCLI'
     Configuration: 'LocalTTTConf'
-    LocalTTTConfiguration: 'C:\Users\meastman\Compuware\Workbench\workspace\configuration'
+    LocalTTTConfiguration: 'C:\Users\meastman\Compuware\Workbench\workspace\TotalTestConfiguration'
